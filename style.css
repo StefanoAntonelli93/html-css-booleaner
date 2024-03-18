@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans_serif;
+}
+
+header {
+    background-image:url(./img/pattern.png);
+    height: 175px;
+    background-color: deepskyblue;
+    
+}
+
+.logo {
+    width: 400px;
+    margin-top: 50px;
+}
