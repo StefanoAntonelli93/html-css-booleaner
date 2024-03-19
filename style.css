@@ -32,6 +32,24 @@ h1 {
 
 .data{
     color: grey;
+    font-size: 10px;
+    margin-bottom: 10px;
 }
 
+.photo-text {
+    font-size: 10px;
+}
+
+.lorem-text {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.yellow{
+    background-color: gold;
+    
+}
+.list{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
 
