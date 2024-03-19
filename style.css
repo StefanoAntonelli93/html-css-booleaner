@@ -7,13 +7,14 @@
 
 body{
     width: 1200px;
-    margin: o auto;
+    margin: 0 0;
 }
 
 header {
     background-image:url(./img/pattern.png);
     height: 175px;
     background-color: rgb(80, 174, 251);
+    /* background-size: ; */
     
 }
 
@@ -43,6 +44,8 @@ header {
     margin-bottom: 10px;
 }
 
+/* div foto per modificarle */
+
 .photo-text {
     font-size: 10px;
 }
@@ -55,11 +58,16 @@ header {
     background-color: gold;
     
 }
+
+/* qui margin: 30px 20px stessa riga solo una volta margin */
 .list{
     margin-left: 20px;
     margin-bottom: 30px;
 }
 
+/* INIZIO TABELLA */
+
+/* RIVEDI LA TABELLA */
 table {
     border-collapse: collapse;
     margin-bottom: 30px;
@@ -81,6 +89,8 @@ td {
     background-color: rgb(144, 211, 234);
  
 }
+
+/* FINE TABELLA */
 
 .footer-text {
     color: grey;
