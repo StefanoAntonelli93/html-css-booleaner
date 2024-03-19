@@ -3,13 +3,17 @@
     padding: 0;
     box-sizing: border-box;
     
-    
+}
+
+body{
+    width: 1200px;
+    margin: o auto;
 }
 
 header {
     background-image:url(./img/pattern.png);
     height: 175px;
-    background-color: deepskyblue;
+    background-color: rgb(80, 174, 251);
     
 }
 
@@ -53,12 +57,12 @@ header {
 }
 .list{
     margin-left: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 table {
     border-collapse: collapse;
-    width: 150%;
+    margin-bottom: 30px;
     
 }
 
@@ -68,13 +72,50 @@ thead {
     text-align: left;
 }
 
-.tab-white{
-    height: 50px;
+td {
+    width: 800px;
+}
 
-} 
 
 .tab-blue {
     background-color: rgb(144, 211, 234);
-    height: 50px;
+ 
+}
 
+.footer-text {
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.monitor h2 {
+    text-align: center
+}
+
+.monitor {
+    background-image: url(./img/monitor.jpg);
+    height: 200px;
+    background-repeat:  no-repeat;
+}
+
+.monitor h2 {
+    text-align: left;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+
+.graph {
+    background-image: url(./img/graph.jpg);
+    height: 200px;
+    background-repeat:  no-repeat;
+}
+
+.graph h2 {
+    text-align: left;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-top: 10px;
 }
